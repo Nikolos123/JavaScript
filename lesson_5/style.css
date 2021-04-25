@@ -1,0 +1,72 @@
+.board{
+    height:640px;
+    width: 640px;
+    margin: 30px auto;
+    border: 1px solid black;   
+}
+
+.block{
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+
+  .board1{
+    margin-top: 30px;
+    height: 80px;
+    width: 20px;
+    float: right;
+    text-align:right;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    height:640px;       
+    padding-right: 610px;
+} 
+
+.board3{
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+    float: left;
+    text-align:right;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    height:640px;   
+    padding-left: 270px;    
+    
+} 
+    
+.testposition{
+   display: flex;
+}
+
+.black{
+    background: Peru;
+}
+ 
+.white{
+    background: white;
+} 
+
+.text{
+display: flex;
+align-items: center;
+justify-content: center;
+color: darkblue;
+}
+
+body{
+  background-color:NavajoWhite;
+}
+ .board2{
+    margin-top: 30px;
+    height: 20px;
+    float: left;
+    display: flex;
+    justify-content: center; 
+    width: 640px; 
+
+ }
